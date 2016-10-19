@@ -32,4 +32,4 @@
     backrefs=yes
     line='<!-- \1 -->'
     state=present
-  when: disable_tika == true
+  when: fits_disable_tika
