@@ -10,7 +10,7 @@
 
 - name: Download fits
   unarchive:
-    src: http://projects.iq.harvard.edu/files/fits/files/fits-{{ fits_version }}.zip
+    src: https://projects.iq.harvard.edu/files/fits/files/fits-{{ fits_version }}.zip
     copy: no
     dest: '{{ fits_install }}'
     creates: '{{ fits_install }}/fits-{{ fits_version }}/fits.sh'
